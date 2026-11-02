@@ -1,2 +1,10 @@
 __pycache__/
 *.pyc
+.venv/
+
+# Secrets: never commit .env files (templates are fine)
+.env
+.env.*
+*.env
+!.env.example
+!*.example.env
